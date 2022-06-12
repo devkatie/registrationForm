@@ -26,13 +26,13 @@ body
     height: 50%;
 }
 
-.signup-form
-
 .signup-form input
 {
     display: block;
     width: 100%;
     padding-left: 10px;
     height: 44px;
-
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
 }
