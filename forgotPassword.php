@@ -14,10 +14,9 @@
     
     <div class="signup-form">
         <img src="user.png">
-        <form action="process.php" method="post">
+        <form action=# method="post">
             <input type="text" placeholder="Email" class="txt" name="Email">
-            <input type="submit" value="Log In" class="btn" name="Login">
-            <a href=#>Send Email</a>
+            <input type="submit" value="Reset Password" class="btn" name="PassReset">
             <a href="index.php">< Go Back</a>
         </form>
     </div>

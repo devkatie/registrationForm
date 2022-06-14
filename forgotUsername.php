@@ -14,12 +14,9 @@
     
     <div class="signup-form">
         <img src="user.png">
-        <form action="processLogin.php" method="post">
-            <input type="text" placeholder="Username" class="txt" name="Username">
-            <input type="password" placeholder="Password" class="txt" name="Password">
-            <input type="submit" value="Log In" class="btn" name="login">
-            <a href="forgotUsername.php">Forgot Username</a>
-            <a href="forgotPassword.php">Forgot Password</a>
+        <form action=# method="post">
+            <input type="text" placeholder="Email" class="txt" name="Email">
+            <input type="submit" value="Request Username" class="btn" name="GetUsername">
             <a href="index.php">< Go Back</a>
         </form>
     </div>
