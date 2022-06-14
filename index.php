@@ -14,11 +14,12 @@
     
     <div class="signup-form">
         <img src="user.png">
-        <form action="index.html" method="post">
-            <input type="text" placeholder="User Name" class="txt">
-            <input type="email" placeholder="Email" class="txt">
-            <input type="password" placeholder="Password" class="txt">
-            <input type="button" value="Create an Account" class="btn">
+        <form action="process.php" method="post">
+            <input type="text" placeholder="User Name" class="txt" name="Username">
+            <input type="email" placeholder="Email" class="txt" name="Email">
+            <input type="password" placeholder="Password" class="txt" name="Password">
+            <input type="Password" placeholder="Confirm Password" class="txt" name="CPass">
+            <input type="submit" value="Create an Account" class="btn" name="btn-save">
             <a href="#">Already Have an Account</a>
         </form>
     </div>
