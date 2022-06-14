@@ -16,11 +16,9 @@
         <img src="user.png">
         <form action="process.php" method="post">
             <input type="text" placeholder="User Name" class="txt" name="Username">
-            <input type="email" placeholder="Email" class="txt" name="Email">
             <input type="password" placeholder="Password" class="txt" name="Password">
-            <input type="password" placeholder="Confirm Password" class="txt" name="CPass">
-            <input type="submit" value="Create an Account" class="btn" name="btn-save">
-            <a href="existingAccount.php">Already Have an Account</a>
+            <input type="submit" value="Log In" class="btn" name="login">
+            <a href="index.php">< Go Back</a>
         </form>
     </div>
 

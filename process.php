@@ -19,13 +19,14 @@
 
         } else {
 
-            $Pass = md5($Password);
+            $Pass = password_hash($Password, PASSWORD_DEFAULT);
             $sql = "insert into users (Username, Email, Password) values ('$Username', '$Email', '$Pass')";
             $result = mysqli_query($con, $sql);
 
             if($result) {
 
-                echo 'Your account has been saved successfully in the database!';
+                echo 'Your account has been saved successfully in the database! <br>';
+                var_dump($Pass);
 
             } else {
 
